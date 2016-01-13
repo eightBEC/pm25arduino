@@ -36,7 +36,7 @@ Figure 3: Wave
 To calculate the particle density given the output voltage of Sharp pin 3 the graph in figure 4 was transposed and linearized as shown in figure 5.
 This results in the following equation: y= 0,1648 * x - 0,0923.
 
-![VoltageDensity](https://drive.google.com/open?id=0BzlX-a_DzYB2U2xmTnBEeGNib28)
+![VoltageDensity](https://drive.google.com/uc?export=download&id=0BzlX-a_DzYB2U2xmTnBEeGNib28)
 Figure 4: Output voltage vs. particle density
 
 ![Linear](https://drive.google.com/open?id=0BzlX-a_DzYB2NVJ2ZEJFQkM2Rkk)
