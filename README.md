@@ -21,16 +21,16 @@ The setup is based on the [Sharp GP2Y1010AU0F Datasheet](http://www.sharp-world.
 | 6 Vcc | 5V Pin  |
 
 See the figure below for the wiring using an Arduino Uno and the Sharp GP2Y1010AU0F Dust Sensor.
-![Setup](https://drive.google.com/open?id=0BzlX-a_DzYB2c05weWRRYXhSUG8)
+![Setup](https://drive.google.com/uc?export=download&id=0BzlX-a_DzYB2c05weWRRYXhSUG8)
 Figure 1: Wiring
 
 
 ## Code
 
 As shown in the Sharp datasheet the output pulse can be sampled after 280 µs the IR LED was turned on. After another 40 µs the LED is turned off, then the sequence is delayed for 9680 µs.
-![Sampling](https://drive.google.com/open?id=0BzlX-a_DzYB2RFhzRWxTbDRYNWs)
+![Sampling](https://drive.google.comuc?export=download&id=0BzlX-a_DzYB2RFhzRWxTbDRYNWs)
 Figure 2: Sampling example
-![Wave](https://drive.google.com/open?id=0BzlX-a_DzYB2RGpKVExKVXNhZW8)
+![Wave](https://drive.google.com/uc?export=download&id=0BzlX-a_DzYB2RGpKVExKVXNhZW8)
 Figure 3: Wave
 
 To calculate the particle density given the output voltage of Sharp pin 3 the graph in figure 4 was transposed and linearized as shown in figure 5.
@@ -39,7 +39,7 @@ This results in the following equation: y= 0,1648 * x - 0,0923.
 ![VoltageDensity](https://drive.google.com/uc?export=download&id=0BzlX-a_DzYB2U2xmTnBEeGNib28)
 Figure 4: Output voltage vs. particle density
 
-![Linear](https://drive.google.com/open?id=0BzlX-a_DzYB2NVJ2ZEJFQkM2Rkk)
+![Linear](https://drive.google.com/uc?export=download&id=0BzlX-a_DzYB2NVJ2ZEJFQkM2Rkk)
 Figure 5: Linearized graph
 
 ```
