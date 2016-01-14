@@ -38,7 +38,7 @@ void loop() {
   if(i%6==0){
     char avgDustStr[25];
     //avg dust density (µg/m³) / min
-    sprintf(avgDustStr,"%f",(dustDensityAvg / (i*1.0)));
+    dtostrf((dustDensityAvg / (i*1.0)),4,8,avgDustStr);
     Serial.println(avgDustStr);
     i=0;
     dustDensityAvg=0;
